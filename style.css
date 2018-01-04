@@ -1,0 +1,57 @@
+.follower-tree {
+	overflow-x: scroll;
+	position: relative;
+	white-space: nowrap;
+}
+
+.follower-column {
+	display: inline-block;
+	white-space: normal;
+	vertical-align: top;
+	width: 200px;
+	text-align: center;
+}
+
+.follower-column ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.follower-column h4, .follower-column p {
+	margin: 0;
+	padding: 0;
+}
+
+.follower {
+	padding: 0.5em;
+}
+
+.follower img {
+	border: 4px solid white;
+	border-bottom: 16px solid white;
+	box-shadow: #000 0 2px 4px;
+	margin-bottom: 0.5em;
+}
+
+.selected {
+	background: #cef;
+}
+
+.cols-2 {
+	column-count: 2;
+}
+
+label {
+	width: 100px;
+	display: inline-block;
+	text-align: right;
+}
+
+.hint {
+	color: lightgray;
+}
+
+#startButton {
+	margin-left: 100px;
+}
