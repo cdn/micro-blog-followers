@@ -34,7 +34,7 @@ function fetchFollowersForUser(user, token) {
 				reject();
 		};
 		request.open('GET', `${MicroBlogBaseAddress}/users/following/${user}`);	
-		request.setRequestHeader('Authorization', `Token: ${token}`);
+		request.setRequestHeader('Authorization', `Token ${token}`);
 		request.send();
 	});
 }
