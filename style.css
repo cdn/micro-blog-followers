@@ -55,3 +55,12 @@ label {
 #startButton {
 	margin-left: 100px;
 }
+
+.code-link {
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.code-link a {
+	text-decoration: none;
+}
